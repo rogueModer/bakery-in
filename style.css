@@ -1,0 +1,134 @@
+
+.mynav{
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+.nav-item{
+    margin-left: 10px;
+    
+}
+.nav-link{
+    color: black;
+    width: 100px;
+}
+.nav-item .nav-link:hover{
+    background: red;
+    border-radius: 5px;
+    color:white;
+    font-weight: 500;
+}
+a{
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+.dropdown-item:hover{
+    background-color: red;
+    color: white;
+    font-weight: 500;
+}
+.cakecards{
+    transition: all 1s;
+}
+.cakecards:hover{
+    transform: scale(1.05);
+}
+
+.subscribetxt{
+    color: papayawhip
+}
+.mybtn{
+    font-family: cursive;
+    font-size:15px;
+    border: none;
+    transition: all 0.5s;
+    
+}
+.mybtn:hover{
+    background-color: lightgoldenrodyellow;
+    color: red;
+    font-weight: 1000;
+}
+
+#home a:link{
+    background-color: red;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-weight: 1000px;
+}
+.img1{
+    background-image: url(images/banner1.png);
+    width: 100%;
+    height: 600px;
+}
+.img2{
+   background-image: url(images/banner2.png);
+   width: 100%;
+   height: 600px;
+}
+.img3{
+   background-image: url(images/banner4.png);
+    width: 100%;
+    height: 600px;    
+}
+.img4{
+   background-image: url(images/banner5.png);
+   width: 100%;
+   height: 600px;
+}
+.col11, .col12{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.col11, .col21, .col31, .col41{
+    margin-top: 100px;
+}
+#section1{
+    background-color: ghostwhite;
+    padding: 70px;
+}
+#section2{
+    background-image: url(images/tt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px;
+    color: whitesmoke;
+}
+#section3{
+    background-color: white;
+    padding: 60px;
+}
+#section4{
+    background-color: black;
+    padding: 60px;
+}
+.jumbocolor{
+    background-color: rgb(230, 48, 49);
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    padding: 90px;
+}
+#section6{
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.myimage{
+    border: 3px solid gray;
+}
+.fa-clock{
+    color: red;
+    padding-right: 4px;
+}
+.fa-angle-double-right{
+    color: red;
+    padding-right: 4px;
+}
+.fa-envelope, .fa-map-marker, .fa-mobile{
+    color: aqua;
+    padding-right: 4px;
+}
+.fa-bars{
+    color: red;
+}

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bakery in a Hotel Category</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="font.css">
+    <link rel="stylesheet" type="text/css" href="mediaquery.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Start -->
+     
+    <nav class="navbar navbar-expand-lg text-center sticky-top mynav" id="scrollnav">
+        <div class="container">
+            <a href="#" class="navbar-brand text-info font-weight-bold text-l"><h2 class=" brandname">BAKERY IN</h2></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mymenu"><span class="fas fa-bars fa-lg"></span></button>
+            
+            <div class="collapse navbar-collapse text-center" id="mymenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active" id="home"><a href="#" class="nav-link text-white">HOME</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">SERVICES</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">PAGE </a>
+                            <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Icon</a>
+                                    <a class="dropdown-item" href="#">Typography</a>
+                                    <a class="dropdown-item" href="login.html">Login</a>
+                            </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">GALLERY</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">MAIL US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Navigation End -->
+    
+    <!-- Slider Start -->
+    
+    <div id="slider" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0"></li>
+            <li data-target="#slider" data-slide-to="1"></li>
+            <li data-target="#slider" data-slide-to="2"></li>
+            <li data-target="#slider" data-slide-to="3"></li>
+        </ul>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="img1">
+                   <div class="row mycarouselitem">
+                           <div class="col-lg-6 col-md-6 text-center col11">
+                                <h2>FACILISIS NON EST UT, </h2>
+                                <h1 class="font-weight-bold">BIBENDUM FINIBUS EST.</h1>
+                                <p>Nulla tempus mollis nulla, a sollicitudin orci posuere sit amet. Nam sed consectetur nulla, in auctor nunc.</p>
+                                <button type="button" class="btn btn-info mybtn">Read More</button>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col12">
+                                <img src="images/cake.png" width="400px" height="auto">
+                           </div>
+                     </div>
+                </div>    
+            </div>
+            <div class="carousel-item">
+                <div class="img2">
+                       <div class="row mycarouselitem">
+                           <div class="col-lg-6 col-md-6 text-center col11">
+                                <h2>FACILISIS NON EST UT, </h2>
+                                <h1 class="font-weight-bold">BIBENDUM FINIBUS EST.</h1>
+                                <p>Nulla tempus mollis nulla, a sollicitudin orci posuere sit amet. Nam sed consectetur nulla, in auctor nunc.</p>
+                                <button type="button" class="btn btn-info mybtn">Read More</button>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col12">
+                                <img src="images/cake1.png" width="400px" height="auto">
+                           </div>
+                     </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="img3">
+                       <div class="row mycarouselitem">
+                           <div class="col-lg-6 col-md-6 text-center col11">
+                                <h2>FACILISIS NON EST UT, </h2>
+                                <h1 class="font-weight-bold">BIBENDUM FINIBUS EST.</h1>
+                                <p>Nulla tempus mollis nulla, a sollicitudin orci posuere sit amet. Nam sed consectetur nulla, in auctor nunc.</p>
+                                <button type="button" class="btn btn-info mybtn">Read More</button>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col12">
+                                <img src="images/cake2.png" width="400px" height="auto">
+                           </div>
+                     </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="img4">
+                       <div class="row mycarouselitem">
+                           <div class="col-lg-6 col-md-6 text-center col11">
+                                <h2>FACILISIS NON EST UT, </h2>
+                                <h1 class="font-weight-bold">BIBENDUM FINIBUS EST.</h1>
+                                <p>Nulla tempus mollis nulla, a sollicitudin orci posuere sit amet. Nam sed consectetur nulla, in auctor nunc.</p>
+                                <button type="button" class="btn btn-info mybtn">Read More</button>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col12">
+                                <img src="images/cake3.png" width="400px" height="auto">
+                           </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#slider" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+        <a href="#slider" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+    </div>
+    
+    <!-- Slider End -->
+    
+    <!-- Section No 1 Box Start -->
+    
+    <section id="section1">
+        <div class="container sectionbox1">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6" col-md-6>
+                    <img src="images/about.png" width="450px" height="auto">       
+                 </div>
+                <div class="col-lg-6 col-md-6 col-sm-6" col-md-6>
+                    <h1 class="myh1"> Welcome To Bakery In</h1>
+                    <h3>Donec In Nisi Non Ipsum Luctus Interdi Est. Cras Ipsum Augue, Facilisis Non Estut, Bibendum Finibus.</h3>
+                    <p> Phasellus sed semper dolor, sed sodales erat. Donec at mi nunc. Suspendisse dictum lorem nec velit scelerisque, ac egestas sem tempor. Integer at facilisis enim. Vestibulum tristique consequat finibus. Donec ut elementum lorem, id dignissim neque. Curabitur commodo, odio sit amet vestibulum pretium, urna quam tincidunt elit, a tempus ex urna sit amet tortor. Nulla volutpat pulvinar interdum. Mauris vel malesuada magna, in venenatis erat. Vestibulum volutpat faucibus semper.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <!-- Section No. 1 box end -->
+    
+    <!-- Section No 2 Box Start -->
+    
+    <section id="section2" class="text-center">
+        <h1 style="margin-top: -50px; margin-bottom: 90px;">Know More About Our Bakery In</h1>
+        <div class="container sectionbox2 text-left">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 text-left">
+                    <h2>Muisque sit amet sapien</h2>                    
+                    <p class="mypara text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s but also the leap into electronic typesetting dolor amet.</p>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <i class="fas fa-birthday-cake fa-3x myicon" style="color:aqua;"></i>
+                            <h5>Delicious Cake</h5>
+                            <p class="mypara">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <i class="fas fa-utensils fa-3x myicon" style="color:aqua;"></i>
+                            <h5>Cheesecake Slices</h5>
+                            <p class="mypara">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                        </div>
+                    </div>    
+                </div>  
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 text-left">
+                            <i class="fas fa-birthday-cake fa-3x myicon" style="color:aqua;"></i>
+                            <h5>Baked Cakes</h5>
+                            <p class="mypara">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 text-left">
+                            <i class="fas fa-utensils fa-3x myicon" style="color:aqua;"></i>
+                            <h2>Fresh Cakes</h2>
+                            <p class="mypara">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                        </div>
+                        <div class="row>">
+                            <div class="col-lg-12 col-md-12 col-sm-12 text-left">
+                                <h1> Muisque sit amet sapien</h1>
+                                <p class="mypara">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s but also the leap into electronic typesetting dolor amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <!-- Section No. 2 box end -->
+        
+    <!-- Section No 3 Box Start -->
+    
+    <section id="section3" class="text-center">
+        <h1 class="myh1"> Most Popular Cakes</h1>
+        <div class="container">
+            <!-- First row Start -->
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-lg-4 col-md-4 col-sm-4 cakecards">
+                    <div class="card text-dark">
+                        <a href="#"><img class="card-img-top" src="images/c2.jpg" width="100%" height="100%"></a>
+                        <div class="card-body">
+                            <h3 class="card-title myh3">Dessert Cake</h3>
+                            <p class="card-text">Vestibulum volutpat faucibus semper</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 cakecards">
+                    <div class="card text-dark">
+                        <a href="#"><img class="card-img-top" src="images/c1.jpg" width="100%" height="100%"></a>
+                        <div class="card-body">
+                            <h3 class="card-title myh3">Sponge Cake</h3>
+                            <p class="card-text">Vestibulum volutpat faucibus semper</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 cakecards">
+                    <div class="card text-dark">
+                        <a href=""><img class="card-img-top" src="images/c3.jpg" width="100%" height="100%"></a>
+                        <div class="card-body">
+                            <h3 class="card-title myh3">Cream Cake</h3>
+                            <p class="card-text">Vestibulum volutpat faucibus semper</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- First Row End -->
+            
+            
+            <!-- Second Row start -->
+            
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-lg-4 col-md-4 col-sm-4 cakecards">
+                    <div class="card text-dark">
+                        <a href=""><img class="card-img-top" src="images/c4.jpg" width="100%" height="100%"></a>
+                        <div class="card-body">
+                            <h3 class="card-title myh3">Sponge Cake</h3>
+                            <p class="card-text">Vestibulum volutpat faucibus semper</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 cakecards">
+                    <div class="card text-dark">
+                        <a href=""><img class="card-img-top" src="images/c5.jpg" width="100%" height="100%"></a>
+                        <div class="card-body">
+                            <h3 class="card-title myh3">Dessert Cake</h3>
+                            <p class="card-text">Vestibulum volutpat faucibus semper</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 cakecards">
+                    <div class="card text-dark">
+                        <a href=""><img class="card-img-top" src="images/c6.jpg" width="100%" height="100%"></a>
+                        <div class="card-body">
+                            <h3 class="card-title myh3">Cream Cake</h3>
+                            <p class="card-text">Vestibulum volutpat faucibus semper</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Second row End -->
+        </div>
+    </section>
+        
+    <!-- Section No. 3 box end -->
+    
+    <!-- Section No. 4 box Start -->
+    
+    <section class="text-center" id="section4">
+        <h1 class="text-white" style="margin-top: -40px; margin-bottom: 90px;"> Our Staff </h1>
+        <div class="row text-center">
+            <div class="col-*-3 ourstaffmargin">
+                <div class="card mycard">
+                    <img class="card-img-top img-fluid rounded-circle myimage" src="images/chef1.jpg" width="100px;" height="auto"><br>
+                    <h3 class="card-title text-info myh3">Jane Robert</h3>
+                </div>
+            </div>
+            <div class="col-*-3 ourstaffmargin">
+                <div class="card mycard">
+                    <img class="card-img-top img-fluid rounded-circle myimage" src="images/chef2.jpg" width="100px;" height="auto"><br>
+                    <h3 class="card-title text-info myh3">James Doe</h3>
+                </div>
+            </div>
+            <div class="col-*-3 ourstaffmargin">
+                <div class="card mycard">
+                    <img class="card-img-top img-fluid rounded-circle myimage" src="images/chef3.jpg" width="100px;" height="auto"><br>
+                    <h3 class="card-title text-info myh3">Laura Olivia</h3>
+                </div>
+            </div>
+            <div class="col-*-3 ourstaffmargin">
+                <div class="card mycard">
+                    <img class="card-img-top img-fluid rounded-circle myimage" src="images/chef4.jpg" width="100px;" height="auto"><br>
+                    <h3 class="card-title text-info myh3">William James</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section No. 4 End -->
+    
+    <!-- Section No. 5 Start -->
+    
+    
+    <section id="section5" class="text-center">
+        <div class="container">
+            <h1 class="text-center text-black myh1" style="margin-top: 30px; margin-bottom: 50px;"> Our Customer Reviews</h1>
+            <div  id="slider2" class="carousel slide" data-interval="6000" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#slider2" data-slide-to="0"></li>
+                    <li data-target="#slider2" data-slide-to="1"></li>
+                    <li data-target="#slider2" data-slide-to="2"></li>
+                    <li data-target="#slider2" data-slide-to="3"></li>
+                </ul>
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="text-center ">
+                            <img src="images/t1.jpg" class="rounded-circle img-center" width="10%" height="auto">
+                                <div class="card-body">
+                                    <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Duis maximus, velit posuere rutrum tempus, nibh ligula semper felis.</p>
+                                    <h3 class="card-title myh3"> LAURA ROY</h3>
+                                </div>        
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center">
+                            <img src="images/t2.jpg" class="rounded-circle img-center" width="10%" height="auto">
+                                <div class="card-body">
+                                    <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Duis maximus, velit posuere rutrum tempus, nibh ligula semper felis.</p>
+                                    <h3 class="card-title myh3">CRISP ALI</h3>
+                                </div>        
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center">
+                            <img src="images/t3.jpg" class="rounded-circle img-center" width="10%" height="auto">
+                                <div class="card-body">
+                                    <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Duis maximus, velit posuere rutrum tempus, nibh ligula semper felis.</p>
+                                    <h3 class="card-title myh3"> HARMONIE JANE</h3>
+                                </div>        
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center">
+                            <img src="images/t1.jpg" class="rounded-circle img-center" width="10%" height="auto">
+                                <div class="card-body">
+                                    <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Duis maximus, velit posuere rutrum tempus, nibh ligula semper felis.</p>
+                                    <h3 class="card-title  myh3"> TONY CLLUE</h3>
+                                </div>        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <!-- Section No. 5 End -->
+    
+    
+        <!-- Jumbotron Start -->
+    
+    <div class="jumbotron text-white jumbocolor">
+        <div class="container text-center">
+            <h1 class="myh1 subscribetxt" style="color: papayawhip; margin: 20px 0px;">Subscribe To Get Notifications</h1>
+            <form class="form-inline" style="margin-left: 420px;">
+                    <input type="text" style="margin-right: 10px;" class="form-control" placeholder="Search....">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    
+        <!-- Jumbotron End -->
+    
+    <!-- Footer Start -->
+   
+    <section id="section6">
+        <footer class="container">
+            <div class="container text-white">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <h2 class="myh2">Opening Hours</h2>
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-7 media-col text-left">
+                                <h6><span class="far fa-clock"></span> Monday</h6>
+                                <h6><span class="far fa-clock"></span> Tuesday</h6>
+                                <h6><span class="far fa-clock"></span> Wednesday</h6>
+                                <h6><span class="far fa-clock"></span> Thursday</h6>
+                                <h6><span class="far fa-clock"></span> Friday</h6>
+                                <h6><span class="far fa-clock"></span> Saturday</h6>
+                                <h6><span class="far fa-clock"></span> Sunday</h6>
+                            </div>       
+                            <div class="media-col col-lg-5 col-md-4 col-sm-5">
+                                <h6>9:00-14:00</h6>
+                                <h6>9:00-14:00</h6>
+                                <h6>9:00-14:00</h6>
+                                <h6>9:00-14:00</h6>
+                                <h6>9:00-14:00</h6>
+                                <h6>9:00-14:00</h6>
+                                <h6>Closed</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <h2 class="myh2">Navigation</h2>
+                        <div class="col-lg-12 col-lg-12 col-sm-12 text-left">
+                            <h6><span class="fas fa-angle-double-right"></span><a style="color:whitesmoke;" href="#"> Home</a></h6>
+                            <h6><span class="fas fa-angle-double-right"></span><a style="color:whitesmoke;" href="#"> About Us</a></h6>
+                            <h6><span class="fas fa-angle-double-right"></span><a style="color:whitesmoke;" href="#"> Services</a></h6>
+                            <h6><span class="fas fa-angle-double-right"></span><a style="color:whitesmoke;" href="#"> Gallery</a></h6>
+                            <h6><span class="fas fa-angle-double-right"></span><a style="color:whitesmoke;" href="#"> Contact Us</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <h2 class="myh2">Contact Us</h2>
+                        <div class="row">
+                            <div class="col-lg-12 col-lg-12 col-sm-12">
+                                <p><span class="fas fa-map-marker fa-lg"></span> Azad Nagar, Hata</p>
+                            </div>
+                            <div class="col-lg-12 col-lg-12 col-sm-12">
+                                <p><span class="fas fa-mobile fa-lg"></span> +919140640459</p>
+                                
+                            </div>
+                            <div class="col-lg-12 col-lg-12 col-sm-12">
+                                <p><span class="fas fa-envelope fa-lg"></span>arush3339@gmail.com</p>
+                                
+                            </div>
+                         </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <h2 class="myh2">Instagram Posts</h2>
+                        <div class="row" style="margin-top:8px;">
+                            <div class="col-lg-4 col-md-4 col-sm-4 cakecards">
+                                <img src="images/post1.jpg" class="foot-img img-fluid rounded" width="100%" height="auto">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 cakecards">
+                                <img src="images/post2.jpg" class="foot-img img-fluid rounded" width="100%" height="auto">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 cakecards">
+                                <img src="images/post3.jpg" class="foot-img img-fluid rounded" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:8px;">
+                            <div class="col-lg-4 col-md-4 col-sm-4 cakecards">
+                                <img src="images/post4.jpg" class="foot-img img-fluid rounded" width="100%" height="auto">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 cakecards">
+                                <img src="images/post5.jpg" class="foot-img img-fluid rounded" width="100%" height="auto">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 cakecards">
+                             <img src="images/post6.jpg" class="foot-img img-fluid rounded" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footborder text-center">
+                    <h4 class="myh4">© 2018 BAKERY IN. ALL RIGHTS RESERVED | DESIGN BY <a href="#">ARUSH SHARMA</a></h4> <span class="text-warning"><a href="#top" ><img src="images/top.png"></a></span>
+                </div>
+            </div>
+        </footer>
+    </section>
+   
+    <!-- Footer End -->
+    
+    <script>
+    var scrollnav = document.getElementById('scrollnav');
+        
+        
+    </script>
+
+</body>
+</html>
+

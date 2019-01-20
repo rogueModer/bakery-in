@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+
+
+
+.brandname{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.nav-link{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 0px 50px;
+    color: whitesmoke;
+}
+h3{
+    color: dimgray;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.myh1{
+    color: black;
+}
+.myh2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid gray;
+    color: red;
+}
+.myh3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+.myh4{
+    
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 10px auto;
+    font-size: 16px;
+    font-family: 
+}
+.ourstaffmargin{
+    border: 1px solid whitesmoke;
+    border-Top: 2px solid red;
+    border-bottom: 2px solid red;
+    margin:0px auto;
+}
+.mycard{
+    background-color: black;
+    padding: 30px;
+}
+.mypara{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    margin: 30px 0px;
+    color: darkgray;
+    letter-spacing: 1px;
+    padding: 0px;
+}
+.myicon{
+    margin: 20px 0px;
+}
+.footborder{
+    border-top: 2px solid gray;
+    padding: 10px;
+}

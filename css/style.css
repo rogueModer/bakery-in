@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding-right: 0px;
+    color: white;
+    font-family: calibri;
+}
+body{
+    background-image: url(../image/3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#box1{
+    margin: 0px auto;
+    text-align: center;
+    padding: 30px 0px;
+}
+#box2{
+    width: 670px;
+    height: 380px;
+}
+.row{
+    height: 410px;
+}
+#docbox{
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+#signupbox{
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+#myCarousel{
+    height: auto;
+    overflow: hidden;
+}
+.links{
+    text-align: center;
+    margin:0px auto;
+    padding-right: 40px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 3px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.myicons{
+    color: black;
+
+}
+form input{
+    display: block;
+    width: 300px;
+    margin-top: 18px;
+    height: 40px;
+    font-family: calibri;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: rgba(0,0,0,0.0);
+    border:none;
+    border-bottom: 1px solid gray;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+input:focus{
+    outline: none;
+    border-bottom-color: white;
+}
+.mybutton{
+    margin:10px auto;
+}
+#fb:hover{
+    color: #3867d6;
+    transition: color 1s;
+}
+#twitter:hover{
+    color: #45aaf2;
+    transition: color 1s;
+}
+#rss:hover{
+    color: #fa8231;
+    transition: color 1s;
+}
+#vk:hover{
+    color: #ff3838;
+    transition: color 1s;
+}
+#vk:hover{
+    color: #ff3838;
+    transition: color 1s;
+}
+#li:hover{
+    color: #182C61;
+    transition: color 1s;
+}
+#dribbble:hover{
+    color: #55E6C1;
+    transition: color 1s;
+}
+#box3{
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+
+.invalid{
+    border-bottom-color: red;
+}
+

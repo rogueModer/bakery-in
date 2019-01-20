@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bakery In SignUp form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+</head>
+<body>
+
+    <div id="box1" class="container-fluid">
+        <h2 style="font-size: 35px; font-family: cursive;">Welcome To Bakery In Shop</h2>
+    </div>  
+
+    <div class="container-fluid" id="box2">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-6" id="docbox">
+                <h3 style="font-size: 20px; font-weight: bold;">Brief History About Us</h3>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                          <!-- Wrapper for slides -->
+                          
+                          <div class="carousel-inner">
+
+                            <div class="item active">
+                              <h2 style="font-size: 15px; font-weight: bold; color: black;">WELCOME TO BAKERY IN</h2>
+                              <p style="color:gray;">This is very attarctive platform where you can share your stuff.</p>
+                            </div>
+
+                            <div class="item">
+                              <h2 style="font-size: 15px; font-weight: 500; color:black;">NOT WEB BUT BELIEVE</h2>
+                              <p style="color:gray;">It's not only website which make it attractive but also beleve if people.</p>
+                            </div>
+                            
+                        </div>
+                </div>
+                <h4 style="font-weight: bold; font-size: 16px;">Sign Up With</h4>
+                <ul class="links">
+                    <li><a href="#"><i id="fb" class="fab fa-facebook myicons"></i></a></li>
+                    <li><a href="#"><i id="twitter" class="fab fa-twitter-square myicons"></i></a></li>
+                    <li><a href="#"><i id="rss" class="fas fa-rss-square myicons"></i></a></li>
+                    <li><a href="#"><i id="vk" class="fab fa-vk myicons"></i></a></li>
+                    <li><a href="#"><i id="li" class="fab fa-linkedin myicons"></i></a></li>
+                    <li><a href="#"><i id="dribbble" class="fab fa-dribbble-square myicons"></i></a></li>
+                </ul>
+                <span class="text-muted">Already have an account <a href="#" class="text-danger">SignIn</a></span>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-6" id="signupbox">
+                    <h4 style="margin: 10px 10px;">NEW CUSTOMER ?</h4>
+                    <form action="registration.php" method="POST">
+                        <input type="text" id="firstname" name="firstname" autocomplete="off" placeholder="First Name">
+                        <input type="text" id="lastname" name="lastname" autocomplete="off" placeholder="Last Name">
+                        <input type="text" id="username" name="username" autocomplete="off" placeholder="Email ID">
+                        <span id="exist" style="font-size: 11px; color: green; width: 100%;"></span>
+                        <span id="blank" style="font-size: 11px; color: red; width: 100%;"></span>
+                        <input type="password" id="password" name="password" placeholder="Password">
+                        <span id="msg" style="font-size: 11px; color: red; width: 100%;">Passwords must be 6 or more characters and contain a number.</span>
+                        <input type="password" id="cpassword" name="cpassword" placeholder="Confirm password">
+                        <button type="submit" class="btn btn-danger mybutton" id="submit" name="submit">Sign Up</button>
+                    </form>
+            </div>                      
+        </div>
+    </div>
+
+    <div class="container-fluid" id="box3">
+        <div class="footer">
+            <h4>© 2017 trendy Signup Form. All right reserved | Design by W3layouts</h4>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/myscript.js"></script>
+</body>
+</html>
